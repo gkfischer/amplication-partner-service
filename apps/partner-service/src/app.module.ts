@@ -2,6 +2,7 @@ import { RabbitMQModule } from "./rabbitmq/rabbitmq.module";
 import { Module } from "@nestjs/common";
 import { UserModule } from "./user/user.module";
 import { PartnerModule } from "./partner/partner.module";
+import { Partner2Module } from "./partner2/partner2.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -25,6 +26,7 @@ import { AuthModule } from "./auth/auth.module";
     LoggerModule,
     UserModule,
     PartnerModule,
+    Partner2Module,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
